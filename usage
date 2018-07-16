@@ -1,0 +1,3 @@
+使用autopep8前
+安装依赖:
+sudo apt-get install python-autopep8
