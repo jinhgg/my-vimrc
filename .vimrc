@@ -35,8 +35,8 @@ set noexpandtab     "不允许扩展table"
 set whichwrap+=<,>,h,l
 set autoread
 set cursorline      "突出显示当前行"
-set cursorcolumn        "突出显示当前列"
-
+hi Pmenu ctermbg=grey
+hi PmenuSel ctermbg=white
 
 "按F5运行python"
 map <F5> :w<CR> :call RunPython()<CR>
@@ -86,6 +86,10 @@ inoremap <expr> <Down>     pumvisible() ? '\<C-n>' : '\<Down>'
 inoremap <expr> <Up>       pumvisible() ? '\<C-p>' : '\<Up>'
 inoremap <expr> <PageDown> pumvisible() ? '\<PageDown>\<C-p>\<C-n>' : '\<PageDown>'
 inoremap <expr> <PageUp>   pumvisible() ? '\<PageUp>\<C-p>\<C-n>' : '\<PageUp>'
+nnoremap <leader>gl :YcmCompleter GoToDeclaration<CR>
+nnoremap <leader>gf :YcmCompleter GoToDefinition<CR>
+nnoremap <leader>gg :YcmCompleter GoToDefinitionElseDeclaration<CR>
+
 
 "F2开启和关闭树"
 map <C-e> :NERDTreeToggle<CR>
@@ -133,4 +137,3 @@ call vundle#begin()
 	Plugin 'vim-airline/vim-airline'
 	call vundle#end()
 	filetype plugin indent on
-
