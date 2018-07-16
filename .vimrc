@@ -40,7 +40,7 @@ hi PmenuSel ctermbg=white
 
 "按F5运行python"
 map <F5> :w<CR> :call RunPython()<CR>
-map <C-a> :Autopep8<CR> :w<CR>
+autocmd FileType python noremap <buffer> <F8> :call Autopep8()<CR>
 function RunPython()
 	let mp = &makeprg
 	let ef = &errorformat
