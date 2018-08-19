@@ -54,6 +54,9 @@ function RunPython()
 	redraw!
 	endfunction
 
+"代码注释/反注释"
+let mapleader=','
+map <F4> <leader>ci <CR>
 
 
 
@@ -127,7 +130,6 @@ call vundle#begin()
 	Plugin 'VundleVim/Vundle.vim'
 	Plugin 'Valloric/YouCompleteMe'
 	Plugin 'scrooloose/nerdtree'
-	Plugin 'tell-k/vim-autopep8'
 	Plugin 'Yggdroot/indentLine'
 	Plugin 'jiangmiao/auto-pairs'
 	Plugin 'scrooloose/nerdcommenter'
@@ -135,5 +137,6 @@ call vundle#begin()
 	Plugin 'dyng/ctrlsf.vim'
 	Plugin 'majutsushi/tagbar'
 	Plugin 'vim-airline/vim-airline'
+	Plugin 'tell-k/vim-autopep8'
 	call vundle#end()
 	filetype plugin indent on
