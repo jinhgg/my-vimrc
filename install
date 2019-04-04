@@ -4,6 +4,7 @@ sudo apt-get install python-autopep8
 使用ctrlsf.vim前
 sudo apt install ack
 
+git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim
 复制.vimrc
 执行:PluginInstall
 
