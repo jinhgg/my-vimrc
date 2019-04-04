@@ -1,5 +1,0 @@
-使用autopep8前
-安装依赖:
-sudo apt-get install python-autopep8
-使用ctrlsf.vim前
-sudo apt install ack
