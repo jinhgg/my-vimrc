@@ -90,8 +90,8 @@ inoremap <expr> <Up>       pumvisible() ? '\<C-p>' : '\<Up>'
 inoremap <expr> <PageDown> pumvisible() ? '\<PageDown>\<C-p>\<C-n>' : '\<PageDown>'
 inoremap <expr> <PageUp>   pumvisible() ? '\<PageUp>\<C-p>\<C-n>' : '\<PageUp>'
 nnoremap <leader>gl :YcmCompleter GoToDeclaration<CR>
-nnoremap <leader>gg :YcmCompleter GoToDefinition<CR>
-nnoremap <leader>gf :YcmCompleter GoToDefinitionElseDeclaration<CR>
+nnoremap <leader>gf :YcmCompleter GoToDefinition<CR>
+nnoremap <leader>gg :YcmCompleter GoToDefinitionElseDeclaration<CR>
 
 
 "F2开启和关闭树"
