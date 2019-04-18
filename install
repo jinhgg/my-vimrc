@@ -1,9 +1,11 @@
-使用autopep8前
-安装依赖:
+安装autopep8依赖:
 sudo apt-get install python-autopep8
-使用ctrlsf.vim前
+安装ctrlsf依赖
 sudo apt install ack
+安装tagbar依赖
+sudo apt install exuberant-ctags
 
+下载Vundle
 git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim
 复制.vimrc
 执行:PluginInstall
