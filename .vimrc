@@ -113,8 +113,8 @@ let g:autopep8_disable_show_diff=1
  let g:airline#extensions#tabline#left_alt_sep = '|'
 
  "设置切换Buffer快捷键
- nnoremap <C-n> :bn<CR>
- nnoremap <C-b> :bp<CR>
+ nnoremap <C-h> :bn<CR>
+ nnoremap <C-l> :bp<CR>
 let g:airline#extensions#tabline#buffer_nr_show = 1 
 
 map <leader>t :TagbarToggle<CR>
