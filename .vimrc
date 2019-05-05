@@ -113,10 +113,12 @@ let g:autopep8_disable_show_diff=1
  let g:airline#extensions#tabline#left_alt_sep = '|'
 
  "设置切换Buffer快捷键
- nnoremap <C-h> :bn<CR>
- nnoremap <C-l> :bp<CR>
+ nnoremap <C-l> :bn<CR>
+ nnoremap <C-h> :bp<CR>
 let g:airline#extensions#tabline#buffer_nr_show = 1 
 
+"设置tagbar的窗口宽度  
+let g:tagbar_width=30 
 map <leader>t :TagbarToggle<CR>
 filetype off
 set rtp+=~/.vim/bundle/Vundle.vim
