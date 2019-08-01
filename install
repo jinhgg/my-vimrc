@@ -18,7 +18,7 @@ python3 ./install.py
 ====================================================
 buffer 操作
 ctrl b/n 前后切换
-:bs3 删除指定buffer
+:bd3 删除指定buffer
 
 youcompleteme
 ,gg 跳转到定义处
