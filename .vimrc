@@ -1,9 +1,9 @@
-  1 set number
-  2 colorscheme slate
-  3 set hlsearch
-  4 set shiftwidth=4
-  5 set tabstop=4
-  6 set expandtab
-  7 set smartindent
-  8 set cindent
-  9 set autoindent
+set number
+colorscheme slate
+set hlsearch
+set shiftwidth=4
+set tabstop=4
+set expandtab
+set smartindent
+set cindent
+set autoindent
